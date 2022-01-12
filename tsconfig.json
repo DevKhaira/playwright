@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "types": ["node", "playwright", "reflect-metadata"],
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true
+    },
+    "include": ["./features/support/*", "./features/support/**/*"]
+}

@@ -1,0 +1,12 @@
+┌────────────────────────────────────────────────┬──────────┬──────────────────────────────┐
+│ Pattern / Text                                 │ Duration │ Location                     │
+├────────────────────────────────────────────────┼──────────┼──────────────────────────────┤
+│ Navigate to the kung fu site                   │ 0.20ms   │ features/support/steps.ts:29 │
+│   Navigate to the kung fu site                 │ 0.20ms   │ features/sandbox.feature:4   │
+├────────────────────────────────────────────────┼──────────┼──────────────────────────────┤
+│ The page header should be {string}             │ 0.16ms   │ features/support/steps.ts:37 │
+│   The page header should be "Club Information" │ 0.16ms   │ features/sandbox.feature:6   │
+├────────────────────────────────────────────────┼──────────┼──────────────────────────────┤
+│ I am on the kung fu site                       │ 0.07ms   │ features/support/steps.ts:33 │
+│   I am on the kung fu site                     │ 0.07ms   │ features/sandbox.feature:5   │
+└────────────────────────────────────────────────┴──────────┴──────────────────────────────┘

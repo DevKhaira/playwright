@@ -1,16 +1,17 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-expect/issues"
-  },
+  "author": "Dev Khaira <devinderkhaira@gmail.com>",
   "dependencies": {
     "chromedriver": "90.0.1",
-    "cucumber": "6.0.5",
     "expect": "26.6.2",
-    "playwright": "1.17.2"
+    "inversify": "^6.0.1",
+    "playwright": "1.17.2",
+    "ts-node-register": "^1.0.0",
+    "tsify": "^5.0.4",
+    "typescript": "^4.5.4"
   },
   "description": "Playwright end-to-end test automation boilerplate. Using Commonjs, Cucumber and Expect.",
   "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.2",
     "eslint": "7.32.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "8.3.0",
@@ -22,7 +23,6 @@
     "prettier": "2.5.1",
     "pretty-quick": "3.1.3"
   },
-  "homepage": "https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-expect#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged --allow-empty"
