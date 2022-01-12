@@ -14,7 +14,6 @@ import { TYPES } from '../../types';
 const sandbox = ioc.get<ISandbox>(TYPES.Sandbox);
 
 let page;
-let browser;
 
 setDefaultTimeout(50 * 1000);
 

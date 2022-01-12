@@ -1,7 +1,7 @@
 export interface ISandbox {
-    launchNewPage(): void;
-    visit(page:any): void;
-    closeBrowser(page:any): void;
-    assertOnSite(page:any): void;
-    assertHeaderShouldHaveText(page:any, header:string): void;
+    launchNewPage(): Promise<ISandbox>;
+    visit(page:any): Promise<ISandbox>;
+    closeBrowser(page:any): Promise<ISandbox>;
+    assertOnSite(page:any): Promise<ISandbox>;
+    assertHeaderShouldHaveText(page:any, header:string): Promise<ISandbox>;
   }

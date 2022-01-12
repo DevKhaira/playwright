@@ -6,7 +6,6 @@ const expect = require("expect");
 
 let browser;
 let page;
-
 @injectable()
 
 export class Sandbox implements ISandbox {
