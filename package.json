@@ -51,10 +51,6 @@
     ]
   },
   "name": "playwright-commonjs-cucumber-expect",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-expect.git"
-  },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "./node_modules/.bin/cucumber-js"
